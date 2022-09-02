@@ -9,9 +9,10 @@ border-radius: 5px;
 padding: 5px 15px;
 width: 30%;
 
+
 @media (max-width: 750px) {
     width: 20%;
-    
+ 
     
     p {
         font-size: 12px;
@@ -25,9 +26,8 @@ width: 30%;
     svg {
         display: none;
     }
-    
+   
 }
-
 `;
 
 export const Header = styled.header`
@@ -48,7 +48,7 @@ export const Headertitle = styled.p`
 font-size: 20px;
 `;
 
-export const Total = styled.spam `
+export const Total = styled.span `
 font-size: 30px; 
 font-weight: bold;
 `;
